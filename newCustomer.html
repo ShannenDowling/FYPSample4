@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <title></title>
+    <meta charset='utf-8'>
+    
+    <style type="text/css">
+    
+      form{width:35%;}
+    
+    </style>
+   <link rel="stylesheet" type="text/css" href="dvds.css"> 
+   
+  </head>
+  <body>
+     
+    <div id="page">
+        
+        <div id="menu">
+        
+        <a href="index.php">Home</a>
+        <a href="newCustomer.html">Register</a>
+        <a href="searchUpdate.php">Customers</a>
+        <a href="purchases.php">Purchases</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        
+        </div>
+        
+        <div id="box">
+          <p>Dowlings DVDs</p>
+        </div>
+         
+    <form action="newCustomer.php" method="post">
+    
+      <fieldset>
+        <legend>Register Customer</legend>
+          <label>Name: </label><br><input type="text" name="CustName"><br><br>
+          <label>Address: </label><br><input type="text" name="CustAddress"><br><br>
+          <label>DOB: </label><br><input type="text" name="CustDOB"><br><br>
+          <input type="submit" name="submitdetails" value="SUBMIT">
+      </fieldset> 
+    
+    </form><br>
+    
+    <form action="select2.php" method="post">
+     
+     <fieldset>
+        <legend>Search Customers</legend>
+        Customer ID: <input type="text" name="id"><br>
+        <input type="submit" name="submitdetails" value="SUBMIT">
+     </fieldset>
+     
+    </form>
+    
+      <div id="footer">
+          <p>Copyright &#169; 2016 Dowlings DVDs. All rights reserved.</p>
+      </div>
+        
+  </div>
+      
+  </body>
+</html>
